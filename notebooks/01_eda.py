@@ -34,7 +34,7 @@ def data_visualizations_bar(data_to_visual,chart_label):
     plt.title(f' Customer distribution by {chart_label}', wrap=True)
     
 if __name__ == "__main__":
-    raw_data_loc = '/Users/hypernova/Public/Akash Stuff/Stream_Flix/StreamFlix_Churn_Analysis/data/raw/Customer-Churn.csv'
+    raw_data_loc = 'Customer-Churn.csv'
     # get the data
     base_data = data_load(raw_data_loc)
     
