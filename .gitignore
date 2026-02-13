@@ -1,0 +1,7 @@
+# My .gitignore file
+
+.DS_Store
+__pycache__/
+venv/
+.env
+*.log
