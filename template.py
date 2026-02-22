@@ -8,6 +8,7 @@ list_of_files = [
     f"{project_name}/__init__.py",
     f"{project_name}/data/raw/",
     f"{project_name}/data/processed/",  
+    f"{project_name}/models/model.txt",
     f"{project_name}/notebooks/01_eda.ipynb",
     f"{project_name}/notebooks/02_preprocessing.ipynb",
     f"{project_name}/notebooks/03_modeling.ipynb",

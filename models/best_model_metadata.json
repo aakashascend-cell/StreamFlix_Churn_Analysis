@@ -1,0 +1,51 @@
+{
+    "model_name": "Streamflix_Churn_Analysis",
+    "model_type": "AdaBoostClassifier",
+    "training_date": "2026-02-22 14:12:45",
+    "best_parameters": {
+        "model__learning_rate": 0.03306242504141576,
+        "model__n_estimators": 158
+    },
+    "f1_score": 0.61,
+    "feature_name": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "n_features": 19,
+    "training_samples": 5625,
+    "test_samples": 1407,
+    "class_distribution": {
+        "train": {
+            "0": 4130,
+            "1": 1495
+        },
+        "test": {
+            "0": 1033,
+            "1": 374
+        }
+    },
+    "test_performance": {
+        "accuracy": 0.73,
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1_score": 0.6
+    },
+    "python_version": "3.14"
+}
